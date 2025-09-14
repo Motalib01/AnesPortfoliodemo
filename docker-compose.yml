@@ -1,0 +1,7 @@
+services:
+  anesportfolio:
+    image: ${DOCKER_REGISTRY-}anesportfolio
+    build:
+      context: .
+      dockerfile: AnesPortfolio/Dockerfile
+  
